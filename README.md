@@ -54,3 +54,6 @@ dove __origin__ è la cartella corrente.
 ## Comandi: merge
 La fusione è il modo di Git di rimettere insieme modifiche sullo stesso file. Si usa il comando: 
 `git merge`
+
+## Link utili
+- [Guida](http://rogerdudler.github.io/git-guide/)
