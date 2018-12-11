@@ -23,18 +23,34 @@ Un branch in Git è semplicemente un puntatore ad un ramo della versione di comm
 [Link](https://git-scm.com/download/mac)
 
 ## Comandi: init
+Per creare un nuovo repository a partire da una directory locale, si usa il comando:
+`git init`
 
+## Comandi: clone
+Per clonare un repository presente su GitHub.com si usa il comando:
+`git clone /path/to/repo`
 
 ## Comandi: add
+Per proporre il salvtaggio delle modifiche nel repository, si usa il comando:
+`git add file1 file2 file3 ...`
 
+Per salvare __tutti__ i file presenti nella cartella, si usa il comando:
+`git add *`
 
 ## Comandi: commit
-
+Per committare le modifiche (aggiungendo un messaggio che ne spieghi i cambiamenti), si usa il comando:
+`git commit -m "message here"`
 
 ## Comandi: push
-
+Per salvare le modifiche sul repository, si usa il comando:
+`git push origin master`
+dove __master__ rappresenta il branch principale del repository, e __origin__ la cartella corrente.
 
 ## Comandi: pull
-
+Per prendere le modifiche dal repository e salvarle in locale, si usa il comando:
+`git add remote origin path/to/repo`
+dove __origin__ è la cartella corrente.
 
 ## Comandi: merge
+La fusione è il modo di Git di rimettere insieme modifiche sullo stesso file. Si usa il comando: 
+`git merge`
